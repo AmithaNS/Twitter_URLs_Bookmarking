@@ -30,3 +30,6 @@ Then install Flask using the following commands--
 Command to execute:
 (flask) C:\Users\Amitha\flaskproject>py TwitterBookmark.py <provide the required user's screen_name>
 Eg:(flask) C:\Users\Amitha\flaskproject>py TwitterBookmark.py AnushkaSharma
+
+Images:
+![](images/1.png)

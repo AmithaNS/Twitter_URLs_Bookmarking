@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+</style>
+<h2>YOUR BOOKMARKED URLS ARE</h2>
+</head>
+<body>
+<h2>{{tb}}</h2>
+<table>
+<tr>
+<td>TWEET ID</td>
+<td>TWEET URL</td>
+<td>TWEET TIME</td>
+</thead>
+{% for row in rows %}
+<tr>
+<td>{{row[0]}}</td>
+<td><a href="/">{{row[1]}}</a></td>
+<td>{{row[2]}}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>

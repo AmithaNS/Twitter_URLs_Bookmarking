@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+h2 {
+  font-size: 1.5em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+</style>
+<h2>WELCOME TO HOMEPAGE</h2>
+</head>
+<body>
+<form action="{{url_for('login')}}" method="POST">
+Enter the Consumer_key:
+<input type="text" name="ck"/><br>
+Enter the Consumer_secret_key:
+<input type="text" name="csk"/><br>
+Enter the access_token_key:
+<input type="text" name="at"/><br>
+Enter the access_token_secret:
+<input type="text" name="ats"/><br>
+<input type="submit" value="Submit"/><br>
+</form>
+<br>
+<h2><a href="/list">Get My Timeline URLs Dashboard</a></h2>
+</body>
+</html>

@@ -32,4 +32,6 @@ Command to execute:
 Eg:(flask) C:\Users\Amitha\flaskproject>py TwitterBookmark.py AnushkaSharma
 
 Images:
-![](images/1.png)
+
+![1](https://user-images.githubusercontent.com/37702827/42020824-a115a1ee-7ad6-11e8-91e9-e31c55f3efcc.PNG)
+
